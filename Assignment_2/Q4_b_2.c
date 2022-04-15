@@ -1,3 +1,10 @@
+/*
+    1
+   21A
+  321AB
+ 4321ABC
+54321ABCD
+*/
 #include <stdio.h>
 
 int main() {
