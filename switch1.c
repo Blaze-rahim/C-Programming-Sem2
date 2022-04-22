@@ -37,7 +37,6 @@ int main(){
             }
             if (count==0) printf("%d is Prime",n);
             
-            else if (count==1) printf("%d is not Prime",n);
             break;
         
         case 5:
@@ -67,7 +66,7 @@ int main(){
                 } 
                 
             }
-        
+            break;
         default:
             printf("Invalid Number");
             break;
