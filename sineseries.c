@@ -14,7 +14,7 @@ int main(){
 
     rad = deg*3.14/180;//making deg to radians
     sine = rad;
-    printf("%f\n",rad);
+
 
     for(int i = 3 ; i<=n ;i+=2){
         fact = fact*i*(i-1);
