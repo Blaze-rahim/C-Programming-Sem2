@@ -36,11 +36,12 @@ int main(){
         }
 
         printf("\nSum of two matrices: \n"); // To print matrix
-        for (i = 0; i < 3; i++)
+        for (i = 0; i < 3; i++){
             for (j = 0; j < 3; j++) {
-            printf("%d\t", lst[i][j]);
-            if (j == 3 - 1) {
-                printf("\n\n");
+                printf("%d\t", lst[i][j]);
+                if (j == 3 - 1) {
+                    printf("\n\n");
+                }
             }
         }
         break;
@@ -52,13 +53,14 @@ int main(){
         }
 
         printf("\nTranspose of given Matrix is:\n");
-        for (i = 0; i < 3; i++)
-                for (j = 0; j < 3; j++) {
+        for (i = 0; i < 3; i++){
+            for (j = 0; j < 3; j++) {
                 printf("%d\t", lst[i][j]);
                 if (j == 3 - 1) {
                     printf("\n\n");
                 }
             }
+        }
         break;
     
     case 'c':
@@ -69,12 +71,13 @@ int main(){
         }
 
         printf("Multiplication of two matrices: \n"); // To print matrix
-        for (i = 0; i < 3; i++)
+        for (i = 0; i < 3; i++){
             for (j = 0; j < 3; j++) {
             printf("%d\t", lst[i][j]);
             if (j == 3 - 1) {
                 printf("\n\n");
             }
+        }
         }
         break;
 
