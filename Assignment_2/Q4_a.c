@@ -1,17 +1,14 @@
 #include <stdio.h>
-int fac(int n){
-    int res = 1;
-    for (int i=2; i<=n; i++) res *= i;
-    return res;
-}
 int main(){
-    int n;
-    float sum;
+    int n, res = 1;
+    float sum = 0;
     printf("ENter ur n");
     scanf("%d",&n);
     for(int i = 1; i<=n ; i++){
-        sum = 1.0/fac(i);
+        for (int j=2; j<=n; j++) res *= j;
+        
+        sum += 1.0/res;
     }
-    printf(" The sum is : %f",sum);
+    printf(" The sum is : %.3f",sum);
     return 0;
 }

@@ -29,13 +29,9 @@ int main(){
     }
 
     printf("\nDisplaying info of %d students\n",n);
-    printf("|---------------------------------------|\n");
-    printf("|Rollno.|Name\t|Marks1\t|Marks2\t|Marks3\t|\n");
-    printf("|-------|-------|-------|-------|-------|\n");
+    printf("Rollno. Name\t Marks1\t Marks2\t Marks3\t \n");
     
-    for(int j = 0; j<n; j++){
-        printf("|%d\t|%s\t|%d\t|%d\t|%d\t|\n", s[j].rollno,s[j].name,s[j].sub1,s[j].sub2,s[j].sub3);
-        printf("|-------|-------|-------|-------|-------|\n");
-    }
+    for(int j = 0; j<n; j++)
+        printf("%d\t%s\t %d\t %d\t %d\t\n", s[j].rollno,s[j].name,s[j].sub1,s[j].sub2,s[j].sub3);
     return 0;
 }
