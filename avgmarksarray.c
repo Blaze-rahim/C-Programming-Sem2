@@ -23,8 +23,10 @@ int main(){
 // input n
 // for i=0 to n
 //     input marks[i]
+// 
+// for i=0 to n
 //     sum = sum + marks[i]
-
+// 
 // avg = sum/n
 // print sum
 // end
