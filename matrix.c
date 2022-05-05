@@ -9,7 +9,7 @@ int main(){
     int lst[3][3]; //empty array 
     int m1[3][3]; // matrix 1
     int m2[3][3];// matrix 2
-    int i,j;// loop intialization
+    int i,j,k, sum;// loop intialization
     printf(" a. Addition of matrices \n b. Transpose of matrices \n c. Multiplication of matrices");
     scanf("%c",&choice);
     
@@ -66,7 +66,10 @@ int main(){
     case 'c':
         for (i = 0; i < 3; i++){
             for (j = 0; j < 3; j++) {
-                lst[i][j] = m1[i][j] * m2[i][j];
+                sum = 0;
+                for(k = 0;k<3;k++)
+                    sum = sum + m1[i][j]* m2[k][j];
+                lst[i][j] = sum;
             }
         }
 
