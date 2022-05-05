@@ -11,6 +11,6 @@ int main(){
         }
         sum = sum +(1/f);
     }
-    printf("%d", sum);
+    printf("the sum of series is %d", sum);
     return 0;
 }
