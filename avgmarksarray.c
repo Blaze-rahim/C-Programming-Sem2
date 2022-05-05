@@ -1,17 +1,19 @@
 #include <stdio.h>
 int main(){
-    int n, sum=0;
-    float avg;
+    int n, sum=0, marks[100], avg;
     printf("Enter the number of subjects");
     scanf("%d",&n);
-    float marks[n];// just space complexity reduction
+    
     for(int i=0; i<n ; i++){
         printf("Enter marks of Subject %d",i+1);
-        scanf("%f",marks[i]);
+        scanf("%d",&marks[i]);
+    }
+    
+    for(int i=0; i<n ; i++){
         sum += marks[i];
     }
     avg = sum/n;
-    printf("The avg marks of %d subjects is %d",n,sum);
+    printf("The avg marks of %d subjects is %d",n,avg);
     return 0;
 }
 
