@@ -75,3 +75,9 @@ int sortArray(int *array,  int t){
     return 0;
 }
 
+// Output:
+
+// Array 1: 1 4 9 8 2 5 1 1 
+// Array 2 : 7  0  4  8  4  5  7
+// Array After array and before Sorting: 1  4  9  8  2  5  1  1  7  0  4  8  4  5  7
+// Array After Sorting: 0  1  1  1  2  4  4  4  5  5  7  7  8  8  9

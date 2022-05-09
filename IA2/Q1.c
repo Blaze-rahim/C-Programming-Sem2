@@ -38,4 +38,11 @@ int main() {
 }
 
 
+// output:
 
+// Enter a line of string: C programing is very easy 123
+
+// Vowels: 7
+// Consonants: 14
+// Digits: 3
+// White spaces: 5
