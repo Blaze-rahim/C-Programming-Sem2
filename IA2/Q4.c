@@ -35,3 +35,22 @@ int main(){
     }
     return 0;
 }
+
+// Output:
+
+// Enter No. of players2
+
+// Enter details of player 1
+// Name : Abdul
+// Country : India
+// Matches played : 10
+// Number of goals : 30
+
+// Enter details of player 2
+// Name : Yashas
+// Country : India
+// Matches played : 90
+// Number of goals : 200
+// Name    Country Matchs  goals
+// Abdul   India   10      30
+// Yashas  India   90      200
