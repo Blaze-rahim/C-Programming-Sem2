@@ -25,7 +25,7 @@ int main() {
     
     mergeArray(array, a1, a2, t, n); 
     
-    printf("Array After array and before Sorting: ");
+    printf("Array After Merging and before Sorting: ");
     for(int i = 0; i < t; i++ ){
         printf("%d  ", array[i]);
     }
