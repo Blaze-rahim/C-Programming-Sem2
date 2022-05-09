@@ -33,3 +33,23 @@ int main(){
     }
     return 0;
 }
+
+// Output:
+
+// Enter size of an array7
+// Enter arr value1
+// Enter arr value2
+// Enter arr value3
+// Enter arr value4
+// Enter arr value5
+// Enter arr value6
+// Enter arr value7
+// Even Number Array:
+// 2
+// 4
+// 6
+// Odd Number Array:
+// 1
+// 3
+// 5
+// 7
