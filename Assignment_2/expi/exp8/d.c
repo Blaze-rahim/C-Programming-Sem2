@@ -9,7 +9,6 @@ int main (){
     scanf("%s",&s1);
     
     for(len=0; s1[len] != '\0';len++);
-    printf("The lenght of string is %d\n",len);
 
     for (i=0; i< len; i++) {
 
