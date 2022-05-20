@@ -1,23 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <math.h>
-int main(){
-	int n, c=0, p, digit, sum=0, temp;
-	printf("ENter ya value");
-	scanf("%d",&n);
-	temp = n;
-	while(n>0){
-		n /= 10;
-		c++;
-	}
-	n = temp;
 
-	while(n>0){
-		digit = n%10;
-		n /= 10;
-		p = pow(digit,c);
-		sum += p;
-		}
-	if(sum == temp) printf("Armstrong number");
-	else printf("Not armstrong");
-	return 0;
-	}
+int main() {
+
+int num, dig, temp, count = 0, sum= 0;
+printf ("Enter a number:"); 
+scanf ("%d", &num);
+temp = num;
+while (num!=0)
+{
+num= num/10;
+count++;
+}
+num= temp;
+while (num!=0)
+{
+dig=num % 10;
+num = num/10;
+sum = sum + pow (dig, count);
+}
+if (sum==temp)
+printf ("Armstrong Number");
+else
+printf ("Not Armstrong No.");
+return 0;
+}
