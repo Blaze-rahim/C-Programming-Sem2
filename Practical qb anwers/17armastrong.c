@@ -1,9 +1,7 @@
-//same as 3rd one
-
 #include<stdio.h>
-#include <math.h>
+
 int main(){
-	int n, c=0, p, digit, sum=0, temp;
+	int n, c=0, p = 1, digit, sum=0, temp;
 	printf("ENter ya value");
 	scanf("%d",&n);
 	temp = n;
@@ -16,7 +14,10 @@ int main(){
 	while(n>0){
 		digit = n%10;
 		n /= 10;
-		p = pow(digit,c);
+		p =1;
+		for (int i = 0; i<c; i++){
+			p *= digit;
+		}
 		sum += p;
 		}
 	if(sum == temp) printf("Armstrong number");
